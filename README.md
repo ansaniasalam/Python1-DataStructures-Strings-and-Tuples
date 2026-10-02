@@ -1,4 +1,4 @@
-# Python 1: Data Structures - Strings and Tuples
+# Data Structures - Strings and Tuples
 
 This Jupyter notebook contains hands-on Python exercises with strings and tuples. It demonstrates how to combine and work with text, and how to create, combine, repeat, and access tuple elements.
 
