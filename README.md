@@ -18,5 +18,4 @@ They also repeat the combined tuple three times and demonstrate how to access an
 Open the Python file in Jupyter Notebook, or run it from a terminal:
 
 ```bash
-python  Python1-DataStructures-Strings-and-Tuples.ipynb
-
+python  Python1.Data_Structures-Strings&Tuples.ipynb
