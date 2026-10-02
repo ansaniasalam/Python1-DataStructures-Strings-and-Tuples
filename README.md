@@ -1,21 +1,57 @@
-# Python 1: Data Structures — Strings and Tuples
+# Python 1: Data Structures - Strings and Tuples
 
-This repository contains hands-on Python exercises with strings and tuples. The examples demonstrate how to combine and work with text, and how to create, combine, repeat, and access tuple elements.
+This Jupyter notebook contains hands-on Python exercises with strings and tuples. It demonstrates how to combine and work with text, and how to create, combine, repeat, and access tuple elements.
 
-## Strings
+## Concepts Used
 
-The string examples create a personalized welcome message using concatenation. 
-They then use indexing and slicing to retrieve specific characters and sections, reverse the message, and extract the word `Python`. 
-Additional examples use built-in string methods to change letter case, capitalize text, count a character, and replace a word.
+### User Input
+`input()` reads text from the user at runtime and always returns a string.
 
-## Tuples
+### String Concatenation
+The `+` operator joins strings into a new one. Strings are immutable, so the original strings are never modified.
 
-The tuple examples create two tuples and concatenate them into `t_combine`. 
-They also repeat the combined tuple three times and demonstrate how to access an individual element, the first three elements, and the last three elements.
+### Indexing
+Each character has a position. Positive indexes start at `0` from the left, and negative indexes start at `-1` from the right.
+
+### Slicing
+`string[start:stop:step]` extracts a portion of a string. The stop index is excluded, and a step of `-1` reverses the string.
+
+### find() Method
+Returns the starting index of a substring (or `-1` if not found). It is used with slicing to extract a word dynamically.
+
+### Case Methods
+`upper()`, `lower()` and `capitalize()` change the case of a string.
+
+### Method Chaining
+Applying one method to the result of another, e.g. `lower().capitalize()`.
+
+### count() Method
+Counts occurrences of a character or substring (case-sensitive).
+
+### replace() Method
+Returns a new string with all occurrences of a substring replaced.
+
+### Tuples
+Ordered, immutable collections created with `()`. Their elements cannot be changed after creation.
+
+### Tuple Concatenation
+`+` combines two tuples into a new one.
+
+### Tuple Repetition
+`*` repeats a tuple's elements a given number of times.
+
+### Tuple Indexing & Slicing
+Works the same way as with strings, e.g. `t[2]`, `t[:3]`, `t[-3:]`.
+
+### print() Function
+Displays labelled output for readability.
 
 ## Running the Code
 
-Open the Python file in Jupyter Notebook, or run it from a terminal:
+Open the notebook in Jupyter Notebook or JupyterLab and run the cells in order.
+
+To run it from a terminal instead, execute the notebook with:
 
 ```bash
-python  Python1.Data_Structures-Strings&Tuples.ipynb
+jupyter nbconvert --to notebook --execute "Python1.Data_Structures-Strings&Tuples.ipynb"
+```
